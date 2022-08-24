@@ -8,6 +8,11 @@
   --darkgrey: #2f303a;
   --productborder: #eeeeee;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
   font-family: "Roboto", "Raleway", sans-serif;
   color: var(--darkgrey);
@@ -26,6 +31,13 @@ body {
   line-height: 1.166666666666667;
   text-align: center;
   color: var(--black);
+  margin: 0px 0 50px 0;
+}
+.no-margin {
+  margin: 0;
+}
+.no-padding {
+  padding: 0;
 }
 /*menu-nav*/
 .wrapper {
@@ -34,6 +46,7 @@ body {
 }
 .container {
   width: 1200px;
+  margin: 0 auto;
 }
 .header {
   align-items: center;
@@ -77,6 +90,8 @@ body {
 /*contakty boczne*/
 .contact-style {
   gap: 50px;
+  padding: 0 0 718 0px;
+  margin: 0;
 }
 .contact-link-style {
   color: var(--gray);
@@ -105,6 +120,7 @@ body {
   align-items: center;
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
   background: var(--darkgrey);
+  padding: 200px 0;
 }
 .button {
   width: 200px;
@@ -133,14 +149,10 @@ body {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--black);
-}
-
-.container-title {
-  font-weight: 700;
-  color: #212121;
-  font-size: 14px;
+  margin: 0 0 10px 0;
   line-height: 1.1428571428571428;
 }
+
 .container-text {
   line-height: 0.03em;
   line-height: 1.71;
@@ -151,7 +163,9 @@ body {
   align-items: center;
   flex-direction: column;
 }
-
+.section {
+  padding: 94px 0 94px 0;
+}
 .hobby-title-list {
   display: flex;
   list-style-type: none;
@@ -171,7 +185,11 @@ body {
   left: 0px;
   top: 1449px;
 }
-
+.h2 {
+  font-family: "Roboto";
+  font-size: 36px;
+  font-weight: 700;
+}
 .social-list {
   display: flex;
   flex-direction: row;
@@ -199,6 +217,7 @@ body {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--black);
+  margin: 30px 0 10px 0;
 }
 .text-pra {
   font-size: 16px;
@@ -209,13 +228,23 @@ body {
   color: #757575;
   list-style-type: none;
   font-size: 16px;
+  margin: 0 0 30px 0;
 }
 /*footer container*/
 .footer {
   width: 100%;
+  height: 252px;
   background-color: var(--darkgrey);
+  padding: 60px;
+  padding-left: 215px;
+}
+.footer-container {
+  flex-direction: column;
+  color: var(--white);
+  margin-left: 215px;
 }
 .adress {
+  flex-direction: row;
   font-size: 14px;
   color: var(--white);
 }
