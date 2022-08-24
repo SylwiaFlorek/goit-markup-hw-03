@@ -245,15 +245,15 @@ body {
 .adress {
   margin: 20px 0 0 0;
   font-style: normal;
-  display: block;
 }
-
 .footer-list li {
   margin: 9px 0 9px 0;
 }
 .footer-link {
   color: gray;
   text-decoration: none;
+  display: block;
+  padding: 9px 0;
 }
 
 .white-logo {
