@@ -240,15 +240,14 @@ body {
   flex-direction: column;
   color: var(--white);
   margin-left: 215px;
+  display: block;
 }
 .adress {
   margin: 20px 0 0 0;
   font-style: normal;
+  display: block;
 }
-.footer-list {
-  list-style: none;
-  padding: 0;
-}
+
 .footer-list li {
   margin: 9px 0 9px 0;
 }
