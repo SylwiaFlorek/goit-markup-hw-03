@@ -26,8 +26,7 @@ body {
 }
 
 .section {
-  font-weight: 700;
-  font-size: 36px;
+  padding: 94px 0;
   line-height: 1.166666666666667;
   text-align: center;
   color: var(--black);
@@ -292,15 +291,19 @@ body {
   cursor: pointer;
 }
 .project-container {
+  max-width: 1170px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
   list-style: none;
+  height: 100%;
+  column-gap: 30px;
 }
 .project-item > li {
   border: var(--productborder) solid 1px;
   width: 370px;
   height: 294px;
+  flex-basis: calc((100% - 2 * 30) / 3);
 }
 .project-list-item > h4 {
   color: var(--darkgrey);
