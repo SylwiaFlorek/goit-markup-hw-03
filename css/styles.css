@@ -41,13 +41,14 @@ body {
 /*menu-nav*/
 .wrapper {
   background-color: white;
-  width: 1600px;
 }
 .container {
   width: 1200px;
   margin: 0 auto;
 }
 .header {
+  width: 1600px;
+  justify-content: center;
   align-items: center;
   gap: 93px;
   flex-direction: row;
@@ -231,7 +232,8 @@ body {
 }
 /*footer container*/
 .footer {
-  width: 100%;
+  width: 1600px;
+  justify-content: center;
   background-color: var(--darkgrey);
   padding: 60px 0;
 }
