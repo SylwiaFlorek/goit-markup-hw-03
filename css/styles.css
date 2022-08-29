@@ -31,7 +31,17 @@ body {
   text-align: center;
   color: var(--black);
   margin: 0px 0 50px 0;
+  margin-left: 215px;
 }
+.section-2 {
+  padding: 94px 0 0 0;
+  line-height: 1.166666666666667;
+  text-align: center;
+  color: var(--black);
+  margin: 0px 0 50px 0;
+  margin-left: 215px;
+}
+
 .no-margin {
   margin: 0;
 }
@@ -43,7 +53,7 @@ body {
   background-color: white;
 }
 .container {
-  width: 1200px;
+  width: 1600px;
   margin: 0 auto;
 }
 .header {
@@ -90,7 +100,7 @@ body {
 /*contakty boczne*/
 .contact-style {
   gap: 50px;
-  padding: 0 0 718 0px;
+  padding: 0 0 0 371px;
   margin: 0;
 }
 .contact-link-style {
@@ -111,7 +121,7 @@ body {
 }
 
 .section-top {
-  width: 100%;
+  width: 1600px;
   color: var(--white);
   display: flex;
   gap: 30px;
@@ -140,7 +150,6 @@ body {
   list-style: none;
   flex-direction: row;
   gap: 30px;
-  justify-content: center;
 }
 .container-title {
   font-weight: 700;
@@ -163,9 +172,7 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.section {
-  padding: 94px 0 94px 0;
-}
+
 .hobby-title-list {
   display: flex;
   list-style-type: none;
@@ -195,7 +202,6 @@ body {
   flex-direction: row;
   gap: 30px;
   list-style: none;
-  justify-content: center;
   background: var(--white);
 }
 .social-list-item {
@@ -236,19 +242,19 @@ body {
   justify-content: center;
   background-color: var(--darkgrey);
   padding: 60px 0;
+  margin: 0 auto;
+  padding-left: 215px;
 }
-.footer-container {
-  flex-direction: column;
-  color: var(--white);
-  margin-left: 215px;
-  display: block;
-}
-.adress {
+
+.adress p {
   margin: 20px 0 0 0;
   font-style: normal;
+  color: var(--white);
 }
+
 .footer-list li {
   margin: 9px 0 9px 0;
+  list-style-type: none;
 }
 .footer-link {
   color: gray;
@@ -256,7 +262,6 @@ body {
   display: block;
   padding: 9px 0;
 }
-
 .white-logo {
   color: var(--white);
 }
