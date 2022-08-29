@@ -186,10 +186,9 @@ body {
 
 /*Nasz zespół*/
 .container-social {
+  background-color: var(--notwhite);
   width: 1600px;
-  height: 648px;
-  left: 0px;
-  top: 1449px;
+  margin: 0 auto;
 }
 .h2 {
   font-family: "Roboto";
