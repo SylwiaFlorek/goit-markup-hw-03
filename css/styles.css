@@ -32,9 +32,6 @@ body {
   padding: 0;
 }
 /*menu-nav*/
-.wrapper {
-  background-color: white;
-}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -226,13 +223,6 @@ body {
 /*footer container*/
 .footer {
   background-color: var(--darkgrey);
-}
-
-.footer-container {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 1200px;
 }
 
 .adress p {
