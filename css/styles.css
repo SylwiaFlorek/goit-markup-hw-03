@@ -21,6 +21,7 @@ body {
 }
 
 /*powtarzające*/
+
 .no-line {
   text-decoration: none;
 }
@@ -233,12 +234,12 @@ body {
 /*footer container*/
 .footer {
   background-color: var(--darkgrey);
-  display: flex;
-  justify-content: center;
 }
+
 .footer-container {
+  display: flex;
   flex-direction: column;
-  margin-left: 215px;
+
   max-width: 1600px;
 }
 .adress p {
