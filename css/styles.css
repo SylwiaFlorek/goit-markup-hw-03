@@ -302,9 +302,9 @@ body {
 }
 .project-item > li {
   border: var(--productborder) solid 1px;
-  width: 370px;
-  height: 294px;
-  flex-basis: calc((100% - 2 * 30) / 3);
+  height: 404px;
+  flex-basis: calc((100% -90px) / 4);
+  margin: 0;
 }
 .project-list-item > h4 {
   color: var(--darkgrey);
@@ -317,5 +317,5 @@ body {
   font-size: 16px;
 }
 .style-line {
-  border-bottom: var(--white) solid 1px;
+  border-bottom: var(--notwhite) solid 1px;
 }
