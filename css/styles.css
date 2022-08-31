@@ -240,6 +240,8 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  width: 1600px;
+  padding: 0 215px;
 }
 
 .adress p {
