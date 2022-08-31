@@ -126,7 +126,6 @@ body {
 
 /*Lorem list*/
 .container-list {
-  justify-content: center;
   display: flex;
   list-style: none;
   flex-direction: row;
