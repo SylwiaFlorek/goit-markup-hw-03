@@ -30,14 +30,6 @@ body {
   line-height: 1.166666666666667;
   text-align: center;
   color: var(--black);
-  margin: 0 215px;
-}
-.section-2 {
-  padding: 94px 0 0 0;
-  line-height: 1.166666666666667;
-  text-align: center;
-  color: var(--black);
-  margin: 0 215px;
 }
 
 .no-margin {
@@ -51,7 +43,7 @@ body {
   background-color: white;
 }
 .container {
-  width: 1600px;
+  width: 1200px;
   margin: 0 auto;
 }
 .header {
@@ -144,10 +136,12 @@ body {
 
 /*Lorem list*/
 .container-list {
+  justify-content: center;
   display: flex;
   list-style: none;
   flex-direction: row;
   gap: 30px;
+  padding: 94px 0 0 0;
 }
 .container-title {
   font-weight: 700;
@@ -168,6 +162,7 @@ body {
 }
 /*czym sie zajmujemy*/
 .hobby {
+  padding: 94px 0;
   align-items: center;
   flex-direction: column;
 }
@@ -187,8 +182,7 @@ body {
 /*Nasz zespół*/
 .container-social {
   background-color: var(--notwhite);
-  width: 1600px;
-  margin: 0 auto;
+  padding: 94px 0;
 }
 .h2 {
   font-family: "Roboto";
@@ -202,7 +196,7 @@ body {
   flex-direction: row;
   gap: 30px;
   list-style: none;
-  background: var(--white);
+  justify-content: center;
 }
 .social-list-item {
   weight: 270px;
@@ -238,14 +232,15 @@ body {
 }
 /*footer container*/
 .footer {
-  width: 1600px;
-  justify-content: center;
   background-color: var(--darkgrey);
-  padding: 60px 0;
-  margin: 0 auto;
-  padding-left: 215px;
+  display: flex;
+  justify-content: center;
 }
-
+.footer-container {
+  flex-direction: column;
+  margin-left: 215px;
+  max-width: 1600px;
+}
 .adress p {
   margin: 20px 0 0 0;
   font-style: normal;
