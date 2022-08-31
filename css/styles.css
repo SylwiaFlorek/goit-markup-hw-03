@@ -161,6 +161,7 @@ body {
   display: flex;
   list-style-type: none;
   gap: 30px;
+  padding-left: 0;
 }
 .hobby-title-item {
   list-style-type: none;
@@ -187,6 +188,7 @@ body {
   gap: 30px;
   list-style: none;
   justify-content: center;
+  padding-left: 0;
 }
 .social-list-item {
   weight: 270px;
