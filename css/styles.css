@@ -292,13 +292,13 @@ body {
   cursor: pointer;
 }
 .project-container {
-  max-width: 1170px;
   display: flex;
   gap: 30px;
   flex-wrap: wrap;
+  margin-top: 50px;
+  margin-bottom: 94px;
   list-style: none;
-  height: 100%;
-  column-gap: 30px;
+  justify-content: center;
 }
 .project-item > li {
   border: var(--productborder) solid 1px;
