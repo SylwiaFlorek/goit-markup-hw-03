@@ -27,10 +27,7 @@ body {
 }
 
 .section {
-  padding: 94px 0;
-  line-height: 1.166666666666667;
-  text-align: center;
-  color: var(--black);
+  width: 1600px;
 }
 
 .no-margin {
@@ -240,8 +237,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 1600px;
-  padding: 0 215px;
+  width: 1200px;
 }
 
 .adress p {
